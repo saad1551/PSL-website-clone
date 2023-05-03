@@ -1,0 +1,261 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    line-height: 1.5;
+}
+
+.nav-bar
+{
+    display: flex;
+    background-image: linear-gradient(90deg,#054433,#18634e,#18634e,#054433);
+    color: #fff;
+    min-height: 67px;
+    justify-content: space-around;
+    top: 0px;
+    padding-left: 300px;
+    padding-right: 300px;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.nav-item
+{
+    margin-top: 25px;
+}
+
+.logo
+{
+    height: 67px;
+}
+
+.flex-container
+{
+    display: flex;
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-top: 60px;
+}
+
+.heading
+{
+    color: green;
+    font-family: sans-serif;
+    margin: 10px;
+}
+
+.team-name
+{
+    color: black;
+}
+
+.flex-item
+{
+    text-align: center;
+}
+
+.flex-sub-container
+{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 400px;
+    border: 0.5px solid black;
+    border-collapse: collapse;
+}
+
+#ptstblheading
+{
+    margin-top: 60px;
+}
+
+.flex-mid-container
+{
+    width: 800px;
+    justify-content: flex-start;
+    height: fit-content;
+    border-bottom: none;
+}
+
+p
+{
+    color: black;
+    font-family: sans-serif;
+}
+
+.news
+{
+    font-weight: 600;
+}
+
+.newsimg
+{
+    width: 300px;
+    height: 150px;
+    margin: 20px;
+}
+
+.points-table
+{
+    margin: 20px;
+    font-family: sans-serif;
+    font-weight: 100;
+    text-align: left;
+    font-size: small;
+}
+
+.teams-container
+{
+    display: grid;
+    margin-left: 200px;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 200px;
+    margin-left: 85px;
+    justify-content: space-between;
+}
+
+.team-logo
+{
+    width: 100px;
+    height: 100px;
+}
+
+.pr
+{
+    color: black;
+    text-align: left;
+}
+
+.date
+{
+    text-align: left;
+    padding-left: 10px;
+    color: grey;
+    font-size: small;
+}
+
+.tweets-heading
+{
+    text-align: left;
+    color: black;
+    font-size: large;
+}
+
+.handle
+{
+    text-align: right;
+    color: black;
+    font-size: medium;
+}
+
+.flex-right-width
+{
+    width: 21.2%;
+    height: fit-content;
+    border-bottom: none;
+}
+
+#sponsors
+{
+    text-align: center;
+}
+
+.tweets-section
+{
+    height: 500px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.sponsors-section
+{
+    margin: -10px 160px;
+}
+
+#sponsors-logos
+{
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex-container-2
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 160px;
+
+}
+
+#address1, #address2
+{
+    text-align: center;
+}
+
+.root
+{
+    background-color: darkgreen;
+}
+
+
+.flex-container, .flex-container-2, .sponsors-section
+{
+    background-color: white;
+}
+
+.left-footer
+{
+    display: flex;
+    flex-direction: row;
+    margin-left: 160px;
+}
+
+.footer-img
+{
+    width: 150px;
+    height: 70px;
+}
+
+#left-footer-item-1
+{
+    align-items: center;
+}
+
+#khaleef-1
+{
+    margin-bottom: -10px;
+    color: white;
+}
+
+.footer
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.right-footer
+{
+    margin-left: 750px;
+    margin-top: 20px;
+}
+
+#khaleef-2
+{
+    margin-top: -10px;
+    color: white;
+}
+
+.footer-sm-logos
+{
+    width: 50px;
+    height: 50px;
+}
+
+#copyright
+{
+    color: white;
+}
